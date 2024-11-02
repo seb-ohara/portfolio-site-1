@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+}
+#leftSide{
+    background-color: #1e2023;
+    width: 40%;
+    height: 100vh;
+    position: fixed;
+    border-right: solid 1px black;
+}
+#rightSide{
+    background-color: #1e2023;
+    width: 60%;
+    height: 1800px;
+    margin-left: 40%;
+}
+#lHead{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: white;
+}
+#lHead h3{
+    font-weight: lighter;
+    color: rgb(182, 182, 182);
+}
+#lAbout{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    height: 200px;
+    color: rgb(182, 182, 182);
+    font-size: 110%;
+}
+#lAbout span{
+    color: white;
+    font-weight: bold;
+    font-size: 110%;
+}
+#lTech{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    height: 200px;
+}
+
+
+#project1{
+    color: white;
+    border: solid, 2px, grey;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    height: 300px;
+}
+#project2{
+    color: white;
+    border: solid, 2px, grey;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    height: 300px;
+}
+#project3{
+    color: white;
+    border: solid, 2px, grey;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    height: 300px;
+}
+
+#lTech{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.techs{
+    background-color: rgb(77, 82, 95);
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    overflow-wrap: break-word;
+    color: white;
+    font-weight: bold;
+}
