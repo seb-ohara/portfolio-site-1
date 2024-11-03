@@ -43,30 +43,79 @@ body{
     font-weight: bold;
     font-size: 110%;
 }
+#techHead{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20%;
+    color: white;
+}
 #lTech{
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10%;
-    margin-top: 10%;
     height: 200px;
 }
 
 
+
+
+#resume{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#resumeBut{
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #424952;
+    font-size: 110%;
+    font-weight: bold;
+    box-shadow: 2px 2px 0 0 rgb(0, 0, 0), 4px 4px 0 0 #ffffff;
+    transition: 200ms;
+}
+#resumeBut:hover{
+    box-shadow: 3px 3px 0 0 rgb(0, 0, 0), 6px 6px 0 0 #ffffff;
+    transform: translate(-2px, -2px);
+}
+
+
+
 #project1{
     color: white;
-    border: solid, 2px, grey;
+    border: none;
     margin-left: 20%;
     margin-right: 20%;
-    margin-bottom: 10%;
     margin-top: 10%;
     height: 300px;
 }
+#project1 img{
+    height: 100%;
+    width: 100%;   
+    object-fit: contain;  
+}
+#proj1Text{
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+
+
 #project2{
     color: white;
     border: solid, 2px, grey;
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 10%;
+    margin-top: 10%;
     height: 300px;
 }
 #project3{
@@ -85,10 +134,43 @@ body{
 }
 .techs{
     background-color: rgb(77, 82, 95);
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     text-align: center;
     overflow-wrap: break-word;
     color: white;
     font-weight: bold;
+}
+.techs:hover{
+    height: 95px;
+    width: 95px;
+    transition: 0.3s linear;
+}
+#techJS:hover{
+    height: 85px;
+    width: 85px;
+    transition: 0.3s ease-in-out;
+}
+#techHTML{
+    background-image: url("html-5-svgrepo-com.svg");
+    background-size: contain;
+    background-color: #1e2023;
+}
+#techCSS{
+    background-image: url("css-3-svgrepo-com.svg");
+    background-size: contain;
+    background-color: #1e2023;
+}
+
+#techJS{
+    background-image: url("JavaScript-logo.png");
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+#techGit{
+    background-image: url("github-svgrepo-com.svg");
+    background-size: contain;
+    background-color: #1e2023;
+    fill: aliceblue;
 }
