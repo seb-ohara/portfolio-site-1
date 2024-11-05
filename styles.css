@@ -5,6 +5,7 @@
 }
 body{
     display: flex;
+    background-color: #1e2023;
 }
 #leftSide{
     background-color: #1e2023;
@@ -203,3 +204,36 @@ body{
         margin-bottom: 100px;
     }
 }
+
+@media (max-height: 900px){
+    #leftSide{
+        margin-bottom: 100px;
+    }
+}
+@media (max-height: 700px){
+    #leftSide{
+        margin-bottom: 150px;
+    }
+}
+@media (max-height: 600px){
+    #leftSide{
+        margin-bottom: 200px;
+    }
+}
+@media (max-height: 500px){
+    #leftSide{
+        margin-bottom: 350px;
+    }
+}
+@media (max-height: 400px){
+    #leftSide{
+        margin-bottom: 500px;
+    }
+}
+@media (min-height < 100px){
+    #leftSide{
+        margin-top: 10px;
+        padding-top: 0%;
+    }
+}
+
